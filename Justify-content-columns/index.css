@@ -1,0 +1,30 @@
+body, html{
+    margin:0; padding:0; font-family: Arial;
+}
+
+*{ 
+    box-sizing:border-box;
+}
+
+body{
+    background-color: #eeeeee;
+}
+
+main{
+    display: grid;
+    gap: 1rem;
+    padding: 1rem;
+    height: 100vh;
+    align-items: start;
+    align-items: center;
+    grid-auto-flow: column;
+    justify-content: space-between;
+    justify-content: space-around;    
+}
+
+main div{
+    background-color: #4285F4;
+    min-width: 100px;
+    min-height: 100px;
+    border-radius: 50%;
+}
